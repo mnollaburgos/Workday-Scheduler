@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -29,24 +28,91 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
-      <table>
-        <thead>
-        </thead>
-        <tbody>
-          <tr class="time-block" col="3">
-            <th class="row" scope="col">9AM</th>
-            <th class="description" scope="col">Input</th>
-            <th button="saveBtn" scope="col">Save</th>
-          </tr>
-        </tbody>
-      </table>
+        <form>
+            <div class="row">
+                <p class="hour">9AM</p>
+                <textarea id="textInput" data-text=""></textarea>
+                <button class="saveBtn">Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <p class="hour">10AM</p>
+                <textarea></textarea>
+                <button class="saveBtn">Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <p class="hour">11AM</p>
+                <textarea></textarea>
+                <button class="saveBtn">Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <p class="hour">12PM</p>
+                <textarea></textarea>
+                <button class="saveBtn">Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <p class="hour">1PM</p>
+                <textarea></textarea>
+                <button class="saveBtn">Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <p class="hour">2PM</p>
+                <textarea></textarea>
+                <button class="saveBtn">Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <p class="hour">3PM</p>
+                <textarea></textarea>
+                <button class="saveBtn">Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <p class="hour">4PM</p>
+                <textarea></textarea>
+                <button class="saveBtn">Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <p class="time-block hour">5PM</p>
+                <textarea id="textInput"></textarea>
+                <button class="saveBtn" id="btnSave">Save</button>
+            </div>
+        </form>
     </div>
 
-    <!--Three columns that go within rows <= 12 -->
-    <!--We are going to create a container div to wrap our table element-->
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="index.js"></script>
+    
   </body>
 </html>
